@@ -4,7 +4,9 @@ import Game from './components/game'
 const App =()=>{
   return (
     <div className='app'>
-      <h1>Tic Tac Toe</h1>
+      <div>
+        <h1>Tic Tac Toe</h1>
+      </div>
       <Game />
     </div>
   )
